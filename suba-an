@@ -1,0 +1,32 @@
+using System;
+
+namespace Displaydemographics
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string studentId = "20266474";
+            string fullName = "Kurt Lance A. Suba-an";
+            string nickName = "Lansoy";
+            string gender = "Male";
+            string yearLevel = "2nd Year";
+            string homeLocation = "MJ Cuenco AVE. Mabolo, Cebu City ";
+            string course = "Bachelor of Science in Information Technology";
+            string mobileNo = "09934334853";
+            string personalEmail = "kurtlance325@gmail.com";
+
+           
+            Console.WriteLine("\nDemographics Program by Suba-an\n ");
+            Console.WriteLine("Student ID      : " + studentId);
+            Console.WriteLine("Full Name       : " + fullName);
+            Console.WriteLine("Nick name       : " + nickName);
+            Console.WriteLine("Gender          : " + gender);
+            Console.WriteLine("Year Level      : " + yearLevel);
+            Console.WriteLine("Home Location   : " + homeLocation);
+            Console.WriteLine("Course          : " + course);
+            Console.WriteLine("Mobile No.      : " + mobileNo);
+            Console.WriteLine("Personal email  : " + personalEmail);
+    }
+  }
+}
